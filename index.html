@@ -1,62 +1,79 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zackery Diehl</title>
+    <title>My Personal Website</title>
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-  <div id="content-wrap">
+</head>
+<body>
     <header>
-      <h1>Zackery Diehl</h1>
-      <div class="header-logo">
-        <a href="https://github.com/Zack-Diehl">Github</a>
-        <a href="https://www.linkedin.com/in/zackery-diehl10">LinkedIn</a>
-      </div>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/your-github" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
     </header>
-    <h1>About Me</h1>
-    <main id="aboutContainer">
-      <div>
-        <img src="images\headshot.jpg" alt="Zackery Diehl">
-        <p>I am a student at New York University, and I am also a member of the Judo and Takewondo clubs. I also love to run!</p>
-      <p><b>Currently:</b> Math and CS at NYU <br>
-        <b>Previously:</b> Contributor at <a href="https://outlier.ai/" target="_blank">Outlier</a> </p>   
-        <hr> 
-        <p>
-          <b>Languages:</b> C++, Python, Java, Javascript, C#, C, SQL, MongoDB <br>
-          <b>Other Tools:</b> HTML, CSS, Numpy, Pandas, Scikitlearn, Pytorch<br>
-        </p>
-      </div>
-    </main>
-    <hr>
-    <h1> Featured Projects</h1>
-    <main class="projectContainer">
-      <div class="project">
-        <h2>Predicting Song Genre</h2>
-        <a href="https://github.com/Zack-Diehl/genre-predictor" target="_blank" class="caption">Documentation</a>
-        <h3>Description</h3>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Current Job</h3>
+        <p>Your current position and company name.</p>
+        <h3>Previous Job</h3>
+        <p>Your previous role and company name.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Languages</h3>
         <ul>
-          <li>Visualized music genres in a 2D space using three distinct dimensionality reduction techniques (PCA, t-SNE, UMAP) coupled with k-means clustering</li>
-          <li>Built four multi-classification models (Logistic Regression, AdaBoost, SVM, XGBoost) to classify 10 different genres, achieving one-vs-rest AUROC value of up to 0.93 and accuracy up to 0.57</li>
-          <li>Conducted a grid search with a validation set to fine-tune model hyperparameters, including learning rates, regularization strengths, and tree depths</li>
+            <li>Language 1</li>
+            <li>Language 2</li>
         </ul>
-        <hr>
-      </div>
-      <div class="project">
-        <h2>Fluid Simulation</h2>
-        <a href="https://github.com/Zack-Diehl/sph-fluid" target="_blank" class="caption">Documentation</a>
-        <h3>Description</h3>
-        <hr>
+        <h3>Frameworks</h3>
         <ul>
-          <li>Developed a smoothed particle hydrodynamics fluid simulation using Unity and C#</li>
-          <li>Optimized performance by implementing a spatial grid to reduce the computational complexity of particle interactions, resulting in significantly faster simulation times</li>
-          <li>Implemented Navier-Stokes equations to simulate realistic fluid behavior, including fluid pressure, viscosity, and gravity</li>
+            <li>Framework 1</li>
+            <li>Framework 2</li>
         </ul>
-      </div>
-    </main>
-    <hr>
-    
-    
-  </div>
-  
-  
-  </body></html>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="path-to-image1.jpg" alt="Project 1 Screenshot">
+            <h3><a href="https://github.com/your-github/project1" target="_blank">Project 1</a></h3>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+            </ul>
+        </div>
+        <div class="project">
+            <img src="path-to-image2.jpg" alt="Project 2 Screenshot">
+            <h3><a href="https://github.com/your-github/project2" target="_blank">Project 2</a></h3>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+            </ul>
+        </div>
+        <div class="project">
+            <img src="path-to-image3.jpg" alt="Project 3 Screenshot">
+            <h3><a href="https://github.com/your-github/project3" target="_blank">Project 3</a></h3>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
